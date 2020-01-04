@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+#main{
+    /*background: #000 url("imgs/paper001.jpg");*/
+    margin: 1em 0;
+    padding: 0.5em 0;
+}
+#bar{
+    display: none;
+}
+#bar>span{
+    display: inline-block;
+    /*width: 10%;*/
+    border-bottom: 1px solid #000;
+}
+@media print {
+    #form-div {
+        display: none;
+    }
+    #main{
+        margin: 0;
+        padding: 0;
+        font-size: 0.95em;
+    }
+    #bar{
+        font-size: 0.8em;
+        margin-bottom: 0.7em;
+        display: block !important;
+    }
+}

@@ -5,36 +5,7 @@
     <title>Title</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/uikit.css">
-    <style>
-        #main{
-            /*background: #000 url("imgs/paper001.jpg");*/
-            margin: 1em 0;
-            padding: 0.5em 0;
-        }
-        #bar{
-            display: none;
-        }
-        #bar>span{
-            display: inline-block;
-            /*width: 10%;*/
-            border-bottom: 1px solid #000;
-        }
-        @media print {
-            #form-div {
-                display: none;
-            }
-            #main{
-                margin: 0;
-                padding: 0;
-                font-size: 0.95em;
-            }
-            #bar{
-                font-size: 0.8em;
-                margin-bottom: 0.7em;
-                display: block !important;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="css/ks.css">
 </head>
 <body>
 <div class="container uk-text-large">
@@ -49,6 +20,7 @@
             生成<input type="number" id="amount" class="uk-input uk-width-1-6" value="40">道
             <input type="number" id="maxValue" class="uk-input uk-width-1-6" value="20">以内的口算题
             <button id="btn" class="btn btn-success">生成</button>
+            <a href="https://duyicode.github.io" target="_blank">去练习英文打字指法</a>
         </div>
         <div>
             <input type="checkbox" value="1" name="quesType" class="uk-checkbox">加法
@@ -62,9 +34,7 @@
             <input type="checkbox" value="256" name="quesType" class="uk-checkbox">减数填空
         </div>
     </div>
-    <div id="main" class="row">
-
-    </div>
+    <div id="main" class="row"></div>
 </div>
 <script src="js/ks.js"></script>
 </body>
