@@ -11,6 +11,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -106,18 +113,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="560" y="114" key="CommitChangelistDialog2" timestamp="1578145186970">
+    <state x="560" y="114" key="CommitChangelistDialog2" timestamp="1578145809406">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="560" y="114" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1578145186970" />
+    <state x="560" y="114" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1578145809406" />
     <state x="461" y="167" key="SettingsEditor" timestamp="1578110132761">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="167" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1578110132761" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1578145189464">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1578145813090">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1578145189464" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1578145813090" />
     <state x="616" y="243" key="run.anything.popup" timestamp="1578145488310">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
