@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/uikit.css">
+    <style>
+        /*#main{
+            background: #000 url("imgs/paper001.jpg");
+            padding: 1em;
+        }*/
+        @media print {
+            #form-div {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container uk-text-large">
+    <div id="form-div">
+        <div class="uk-form">
+            生成<input type="number" id="amount" class="uk-input uk-width-1-6" value="40">道
+            <input type="number" id="maxValue" class="uk-input uk-width-1-6" value="20">以内的口算题
+            <button id="btn" class="btn btn-success">生成</button>
+        </div>
+        <div>
+            <input type="checkbox" value="1" name="quesType" class="uk-checkbox">加法
+            <input type="checkbox" value="2" name="quesType" class="uk-checkbox">减法
+            <input type="checkbox" value="4" name="quesType" class="uk-checkbox">连加
+            <input type="checkbox" value="8" name="quesType" class="uk-checkbox">连减
+            <input type="checkbox" value="16" name="quesType" class="uk-checkbox">加减混合
+            <input type="checkbox" value="32" name="quesType" class="uk-checkbox">左加数填空
+            <input type="checkbox" value="64" name="quesType" class="uk-checkbox">右加数填空
+            <input type="checkbox" value="128" name="quesType" class="uk-checkbox">被减数填空
+            <input type="checkbox" value="256" name="quesType" class="uk-checkbox">减数填空
+        </div>
+    </div>
+    <div id="main" class="row">
+
+    </div>
+</div>
+<script src="js/ks.js"></script>
+</body>
+</html>
