@@ -11,15 +11,39 @@
             margin: 1em 0;
             padding: 0.5em 0;
         }
+        #bar{
+            display: none;
+        }
+        #bar>span{
+            display: inline-block;
+            /*width: 10%;*/
+            border-bottom: 1px solid #000;
+        }
         @media print {
             #form-div {
                 display: none;
+            }
+            #main{
+                margin: 0;
+                padding: 0;
+                font-size: 0.95em;
+            }
+            #bar{
+                font-size: 0.8em;
+                margin-bottom: 0.7em;
+                display: block !important;
             }
         }
     </style>
 </head>
 <body>
 <div class="container uk-text-large">
+    <div id="bar" class="container">
+        姓名：<span class="col-2"></span>
+        日期：<span class="col-2"></span>
+        用时：<span class="col-2"></span>
+        错题量：<span class="col-1"></span>
+    </div>
     <div id="form-div">
         <div class="uk-form">
             生成<input type="number" id="amount" class="uk-input uk-width-1-6" value="40">道

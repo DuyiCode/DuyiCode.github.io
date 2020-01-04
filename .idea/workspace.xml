@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="611dec2a-f5c1-463e-888f-2b4784800023" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/ks.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/ks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ks.html" beforeDir="false" afterPath="$PROJECT_DIR$/ks.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +22,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/imgs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -69,6 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578110057096</updated>
       <workItem from="1578110059166" duration="3228000" />
+      <workItem from="1578144275094" duration="847000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1578112547259</created>
