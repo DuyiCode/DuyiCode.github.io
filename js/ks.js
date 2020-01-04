@@ -117,35 +117,35 @@ function getQuestionSet() {
     questionSet.clear();
     let c = 0;
     while (questionSet.size < amount) {
-        if(++c>=maxValue*1000){
+        if (++c >= maxValue * 1000) {
             alert("生成题目数量过大，请修改题目数量！");
             return;
         }
-        if (((bitValue & 1) == 1) && getRandomBoolean()) {
+        if (((bitValue & 1) == 1) && getRandomBoolean() && questionSet.size < amount) {
             questionSet.add(plus());
         }
-        if (((bitValue & 2) == 2) && getRandomBoolean()) {
+        if (((bitValue & 2) == 2) && getRandomBoolean() && questionSet.size < amount) {
             questionSet.add(sub());
         }
-        if (((bitValue & 4) == 4) && getRandomBoolean()) {
+        if (((bitValue & 4) == 4) && getRandomBoolean() && questionSet.size < amount) {
             questionSet.add(plusPlus());
         }
-        if (((bitValue & 8) == 8) && getRandomBoolean()) {
+        if (((bitValue & 8) == 8) && getRandomBoolean() && questionSet.size < amount) {
             questionSet.add(subSub());
         }
-        if (((bitValue & 16) == 16) && getRandomBoolean()) {
+        if (((bitValue & 16) == 16) && getRandomBoolean() && questionSet.size < amount) {
             questionSet.add(mixPlusAndSub());
         }
-        if (((bitValue & 32) == 32) && getRandomBoolean()) {
+        if (((bitValue & 32) == 32) && getRandomBoolean() && questionSet.size < amount) {
             questionSet.add(plusLeftBlank());
         }
-        if (((bitValue & 64) == 64) && getRandomBoolean()) {
+        if (((bitValue & 64) == 64) && getRandomBoolean() && questionSet.size < amount) {
             questionSet.add(plusRightBlank());
         }
-        if (((bitValue & 128) == 128) && getRandomBoolean()) {
+        if (((bitValue & 128) == 128) && getRandomBoolean() && questionSet.size < amount) {
             questionSet.add(subLeftBlank());
         }
-        if (((bitValue & 256) == 256) && getRandomBoolean()) {
+        if (((bitValue & 256) == 256) && getRandomBoolean() && questionSet.size < amount) {
             questionSet.add(subRightBlank());
         }
     }
@@ -161,10 +161,10 @@ function printQuestion() {
 }
 
 document.getElementById("btn").addEventListener("click", function () {
-    if(document.getElementById("amount").value<10){
+    if (document.getElementById("amount").value < 10) {
         alert("至少生成10道题目！");
     }
-    if(document.getElementById("maxValue").value<5){
+    if (document.getElementById("maxValue").value < 5) {
         alert("最简单题目为5以内的加减运算！")
     }
     if (document.querySelectorAll("input[name='quesType']:checked").length == 0) {
