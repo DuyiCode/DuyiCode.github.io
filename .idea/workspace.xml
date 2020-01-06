@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="611dec2a-f5c1-463e-888f-2b4784800023" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/ks.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/ks.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +47,9 @@
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.ks.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/duyicode.github.io/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="ks.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/duyicode.github.io/ks.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -55,6 +59,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.ks.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Node.js.ks.js" />
       </list>
     </recent_temporary>
@@ -83,7 +88,8 @@
       <updated>1578110057096</updated>
       <workItem from="1578110059166" duration="3228000" />
       <workItem from="1578144275094" duration="1210000" />
-      <workItem from="1578145536482" duration="1043000" />
+      <workItem from="1578145536482" duration="1082000" />
+      <workItem from="1578291836372" duration="789000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1578112547259</created>
@@ -120,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578145962652</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add">
+      <created>1578149786488</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578149786488</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,18 +144,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="560" y="114" key="CommitChangelistDialog2" timestamp="1578145962247">
+    <state x="560" y="114" key="CommitChangelistDialog2" timestamp="1578149786082">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="560" y="114" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1578145962247" />
+    <state x="560" y="114" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1578149786082" />
     <state x="461" y="167" key="SettingsEditor" timestamp="1578110132761">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="167" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1578110132761" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1578145964261">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1578149787972">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1578145964261" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1578149787972" />
     <state x="616" y="243" key="run.anything.popup" timestamp="1578145488310">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

@@ -173,8 +173,30 @@ document.getElementById("btn").addEventListener("click", function () {
     }
     maxValue = document.getElementById('maxValue').value;
     amount = document.getElementById('amount').value;
+    localStorage.setItem("maxValue", maxValue);
+    localStorage.setItem("amount", amount);
+    localStorage.setItem("bitValue", bitValue);
     printQuestion();
 });
+
+document.body.onload = ()=>{
+    maxValue = localStorage.getItem("maxValue");
+    amount = localStorage.getItem("amount");
+    bitValue = localStorage.getItem("bitValue");
+
+    if(!maxValue)maxValue = 20;
+    if(!amount)amount = 40;
+
+    document.getElementById("maxValue").value = maxValue;
+    document.getElementById("amount").value = amount;
+    document.querySelectorAll("input[name='quesType']").forEach((input)=>{
+        if((bitValue & input.value)==input.value){
+            input.checked = true;
+        }else{
+            input.checked = false;
+        }
+    });
+};
 
 document.querySelectorAll("input[name='quesType']").forEach((input) => {
     input.addEventListener('change', (e) => {
